@@ -1,0 +1,5 @@
+# directories
+/vendor
+
+# non-OS files
+composer.lock

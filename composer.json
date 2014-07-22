@@ -1,0 +1,23 @@
+{
+    "name": "luckydevshop/foundicons",
+    "description": "Integrate Zurb's Foundation icons into your Laravel project",
+    "keywords": ["laravel", "zurb", "foundation", "icons"],
+    "homepage": "https://github.com/luckydevshop/foundicons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian J. Rogers",
+            "email": "brian@theluckydevshop.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "LuckyDevShop\\Foundicons\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
