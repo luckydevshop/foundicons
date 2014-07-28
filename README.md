@@ -14,7 +14,7 @@ After you have added this to your composer file, run a composer update in your p
 
     composer update
 
-Once that is complete you may want to add two lines to your application's configuration. This will alias the term Icon.
+Once that is complete you may  add two lines to your application's configuration. This will alias the term Icon to this package.
 
 In the provider's array add this line:
 
@@ -34,7 +34,7 @@ Which will produce:
 
     <i class="fi-cloud"></i>
 
-If you did not use the aliases as previously mentioned, you will have to use the following in your blade template:
+If you did not use the aliases as previously mentioned, you will have to use the full namespace in your blade template:
 
     {{ LuckyDevShop\Foundicons\Icon::cloud() }}
 
