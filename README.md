@@ -7,7 +7,7 @@ This package provides a method to generate marukp that uses [Zurb's Foundation I
 To install through Composer, add this to your project's `composer.json` file:
 
     "require": {
-        "luckydevshop": "1.*"
+        "luckydevshop/foundicons": "1.*"
     }
 
 After you have added this to your composer file, run a composer update in your project's root directory:
